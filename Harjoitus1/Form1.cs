@@ -7,16 +7,6 @@ namespace Harjoitus1
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void OtsikkoLB_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void VaihdaBT_Click(object sender, EventArgs e)
         {
             OtsikkoLB.Text = "Heippa Maailma!";

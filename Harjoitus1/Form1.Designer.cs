@@ -35,16 +35,15 @@
             // OtsikkoLB
             // 
             this.OtsikkoLB.AutoSize = true;
-            this.OtsikkoLB.Location = new System.Drawing.Point(448, 261);
+            this.OtsikkoLB.Location = new System.Drawing.Point(142, 69);
             this.OtsikkoLB.Name = "OtsikkoLB";
             this.OtsikkoLB.Size = new System.Drawing.Size(47, 15);
             this.OtsikkoLB.TabIndex = 0;
             this.OtsikkoLB.Text = "Otsikko";
-            this.OtsikkoLB.Click += new System.EventHandler(this.OtsikkoLB_Click);
             // 
             // VaihdaBT
             // 
-            this.VaihdaBT.Location = new System.Drawing.Point(448, 288);
+            this.VaihdaBT.Location = new System.Drawing.Point(142, 96);
             this.VaihdaBT.Name = "VaihdaBT";
             this.VaihdaBT.Size = new System.Drawing.Size(118, 39);
             this.VaihdaBT.TabIndex = 1;
@@ -56,12 +55,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 623);
+            this.ClientSize = new System.Drawing.Size(407, 230);
             this.Controls.Add(this.VaihdaBT);
             this.Controls.Add(this.OtsikkoLB);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Harjoitus 1 Veeti Eskelinen";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Harjoitus 1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
